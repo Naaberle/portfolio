@@ -54,11 +54,11 @@ details summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0;
 }
 
 details > .content > ul {
-  margin-top: 0.25rem;
+  margin-top: 0;
 }
 
 details summary::-webkit-details-marker {
