@@ -61,10 +61,10 @@ details summary::-webkit-details-marker {
 }
 
 details summary::after {
-  content: "▼";
+  content: "▲";
   margin-left: 1rem;
 }
 
 details[open] summary::after {
-  content: "▲";
+  content: "▼";
 }
