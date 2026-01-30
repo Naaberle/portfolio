@@ -57,7 +57,7 @@ details summary {
   padding-bottom: 1em;
 }
 
-details > content{
+details > summary + .content{
   margin-top: 0;
 }
 
