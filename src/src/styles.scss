@@ -57,8 +57,13 @@ details summary {
   padding-bottom: 1em;
 }
 
+details > summary + .content{
+  margin-top: 0;
+}
+
 details > .content > ul {
   padding-top: 0;
+  margin-top: 0;
 }
 
 details summary::-webkit-details-marker {
@@ -72,6 +77,4 @@ details summary::after {
 
 details[open] summary::after {
   content: "▼";
-  padding-top: 0;
-  margin-top: 0;
 }
