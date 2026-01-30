@@ -42,4 +42,29 @@ a.icon > strong {margin-left:.25rem}
 .carousel-cell {width:100%}
 // Flickity - end
 
- 
+ // Details / accordion-like content
+details {
+  cursor: pointer;
+}
+
+details summary {
+  list-style: none;
+  font-weight: 600;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::after {
+  content: "▼";
+  margin-left: 1rem;
+}
+
+details[open] summary::after {
+  content: "▲";
+}
